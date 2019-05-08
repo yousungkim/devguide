@@ -1,1 +1,25 @@
-greeting: "hello"
+greeting: "hello, account"
+
+---
+
+spring:
+  profiles: stage
+greeting: "welcome staging"
+
+---
+
+spring:
+  profiles: dev
+greeting: "welcome dev"
+
+---
+
+spring:
+  profiles: local
+greeting: "welcome local"
+
+---
+
+spring:
+  profiles: prod
+greeting: "welcome production"
