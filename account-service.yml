@@ -1,25 +1,34 @@
-greeting: "hello, account"
+devguide:
+  greeting: "hello, account"
 
 ---
 
 spring:
   profiles: stage
+  
+devguide:
 greeting: "welcome staging"
 
 ---
 
 spring:
   profiles: dev
+  
+devguide:
 greeting: "welcome dev"
 
 ---
 
 spring:
   profiles: local
+  
+devguide:
 greeting: "welcome local"
 
 ---
 
 spring:
   profiles: prod
+  
+devguide:
 greeting: "welcome production"
